@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site Flask</title>
+</head>
+<body>
+    <h1>Bem-vindo ao meu primeiro site em Flask!</h1>
+</body>
+</html>
