@@ -1,0 +1,116 @@
+
+   :root {
+    --bg-main: #f9fafb;
+    --bg-card: #ffffff;
+    --bg-result: #f0f4f8;
+    
+    --text-main: #1f2937;
+    --text-muted: #4b5563;
+    --text-result: #1e3a8a;
+    
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --border-color: #d1d5db;
+    
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    margin-top: 20px;
+    color: var(--text-main);
+}
+
+a {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#calculator {
+    display: inline-block;
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow);
+}
+
+
+.form-grupo {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: var(--text-muted);
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
+
+
+button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover);
+}
+
+
+.resultado {
+    margin-top: 16px;
+    padding: 12px;
+    font-size: 18px;
+    text-align: right;
+    color: var(--text-result);
+    background: var(--bg-result);
+    border-left: 4px solid var(--primary);
+    border-radius: var(--radius-sm);
+}
+
+.resultado strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    text-align: left;
+    color: var(--text-muted);
+}
